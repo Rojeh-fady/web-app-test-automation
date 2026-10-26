@@ -12,7 +12,16 @@ Automated functional and regression testing framework built for a dynamic web ap
 - **Testing Framework:** PyTest
 - **Browser Automation:** Selenium WebDriver
 
+
 ## How to Run
 1. Clone the repository:
    ```bash
    git clone [https://github.com/Rojeh-fady/web-app-test-automation.git](https://github.com/Rojeh-fady/web-app-test-automation.git)
+Install dependencies:
+
+Bash
+pip install selenium pytest webdriver-manager
+Run the tests:
+
+Bash
+pytest test_web_app.py -v
